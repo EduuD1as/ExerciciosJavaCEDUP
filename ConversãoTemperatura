@@ -19,16 +19,16 @@ private static void exercTemps(){
 
 		switch (conversao) {
 			case 1:
-				System.out.println(f);
+				System.out.println("Fahreinheit: " +f);
 				break;
 			case 2:
-				System.out.println(k);
+				System.out.println("Kelvin: " +k);
 				break;
 			case 3:
-				System.out.println(re);
+				System.out.println("Réamur: " +re);
 				break;
 			case 4:
-				System.out.println(ra);
+				System.out.println("Rankine: " +ra);
 				break;
 			default:
 				System.out.println("Opção inválida.");
