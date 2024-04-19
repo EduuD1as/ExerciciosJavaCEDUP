@@ -9,17 +9,16 @@ public class conversaoTemperatura{
    	}
 
 	private static void convTemperatura(){
-		Scanner entradaT = new Scanner (System.in);
+		Scanner s = new Scanner (System.in);
 		System.out.println("Digite uma temperatura em graus celsius.");
-		double celsius = entradaT.nextDouble();
+		double celsius = s.nextDouble();
 
-		Scanner entrada4 = new Scanner (System.in);
 		System.out.println("Agora, escolha a conversão desejada: \n"
 			+"1 - Celsius para Fahreinheit \n"
 			+"2 - Celsius para Kelvin \n"
 			+"3 - Celsius para Réamur \n"
 			+"4 - Celsius para Rankine");
-		int conversao = entrada4.nextInt();
+		int conversao = s.nextInt();
 
 		double f = celsius * 1.8 + 32;
 		double k = celsius + 273.15;
