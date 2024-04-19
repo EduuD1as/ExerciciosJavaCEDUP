@@ -1,5 +1,14 @@
-private static void exercTemps(){
+import java.util.Scanner;
 
+public class conversaoTemperatura{
+
+	public static void main(String[] args) {
+
+		convTemperatura();
+	
+   	}
+
+	private static void convTemperatura(){
 		Scanner entradaT = new Scanner (System.in);
 		System.out.println("Digite uma temperatura em graus celsius.");
 		double celsius = entradaT.nextDouble();
@@ -14,7 +23,7 @@ private static void exercTemps(){
 
 		double f = celsius * 1.8 + 32;
 		double k = celsius + 273.15;
-		double re = celsius * 4/5;
+		double re = celsius * 4 / 5;
 		double ra = celsius * 1.8 + 491.67;
 
 		switch (conversao) {
@@ -34,6 +43,5 @@ private static void exercTemps(){
 				System.out.println("Opção inválida.");
 				break;
 		}
-
 	}
 }
