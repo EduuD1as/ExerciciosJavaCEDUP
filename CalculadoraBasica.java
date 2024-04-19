@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Main
+public class calculadoraBasica
 {
 	public static void main(String[] args) {
 
-		Calculadora();
+		calculadora();
 
 	}
 	    
-	private static void Calculadora(){
+	private static void calculadora(){
 
 		/* 
 	  Calculadora de 4 operações (multiplicação, divisão, soma e adição) entre dois números 
